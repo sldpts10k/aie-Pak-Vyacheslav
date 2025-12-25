@@ -43,6 +43,14 @@ uv run eda-cli overview data/example.csv
 uv run eda-cli report data/example.csv --out-dir reports
 ```
 
+```bash
+uv run eda-cli report --title Hello data/example.csv 
+```
+
+```bash
+uv run eda-cli report --top-k-categories 2 data/example.csv 
+```
+
 В результате в каталоге `reports/` появятся:
 
 - `report.md` – основной отчёт в Markdown;
