@@ -1,0 +1,28 @@
+{
+  "dataset01": {
+    "algorithm": "KMeans",
+    "parameters": {
+      "n_clusters": 2,
+      "n_init": 10,
+      "random_state": 42
+    },
+    "criterion": "silhouette_score"
+  },
+  "dataset02": {
+    "algorithm": "DBSCAN",
+    "parameters": {
+      "eps": 0.6858626232605567,
+      "min_samples": 10
+    },
+    "criterion": "silhouette_score"
+  },
+  "dataset03": {
+    "algorithm": "KMeans",
+    "parameters": {
+      "n_clusters": 3,
+      "n_init": 10,
+      "random_state": 42
+    },
+    "criterion": "silhouette_score"
+  }
+}
