@@ -1,0 +1,40 @@
+{
+  "model_architecture": {
+    "type": "MLP",
+    "input_size": 784,
+    "hidden_sizes": [
+      512,
+      256,
+      128
+    ],
+    "activation": "ReLU",
+    "dropout": 0.0,
+    "batch_norm": true
+  },
+  "training_params": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0,
+    "batch_size": 64,
+    "loss_function": "CrossEntropyLoss",
+    "epochs": 19
+  },
+  "dataset": {
+    "name": "EMNIST",
+    "num_classes": 10,
+    "input_shape": [
+      1,
+      28,
+      28
+    ],
+    "train_samples": 60000,
+    "val_samples": 10000
+  },
+  "best_metrics": {
+    "epoch": 15,
+    "val_accuracy": 0.8587,
+    "val_loss": 0.4606
+  },
+  "seed": 42,
+  "experiment_id": "E4"
+}
