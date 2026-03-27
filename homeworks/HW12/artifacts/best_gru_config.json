@@ -1,0 +1,19 @@
+{
+  "model_type": "GRU",
+  "input_size": 1,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.0,
+  "window_size": 28,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "epochs": 30,
+  "seed": 42,
+  "scaler": "StandardScaler",
+  "loss_function": "MSE",
+  "optimizer": "Adam",
+  "early_stopping_patience": null,
+  "best_val_mae": 5.720355,
+  "best_val_rmse": 7.372209,
+  "best_val_mape": 3.862717
+}

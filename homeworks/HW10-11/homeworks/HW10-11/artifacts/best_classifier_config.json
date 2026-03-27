@@ -1,0 +1,18 @@
+{
+  "dataset": "CIFAR100",
+  "model_architecture": "ResNet18",
+  "pretrained": true,
+  "fine_tuning": "partial (layer4 + fc)",
+  "input_size": 224,
+  "transforms": {
+    "train": "RandomHorizontalFlip(p=0.5), RandomRotation(15), ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2), Resize(224), ToTensor(), Normalize(mean=[0.5071, 0.4867, 0.4408], std=[0.2675, 0.2565, 0.2761])",
+    "val": "Resize(224), ToTensor(), Normalize(mean=[0.5071, 0.4867, 0.4408], std=[0.2675, 0.2565, 0.2761])"
+  },
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "batch_size": 128,
+  "epochs": 20,
+  "seed": 42,
+  "best_val_accuracy": 0.742,
+  "test_accuracy": 0.738
+}

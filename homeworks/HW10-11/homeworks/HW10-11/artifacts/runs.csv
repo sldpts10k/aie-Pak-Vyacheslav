@@ -1,0 +1,7 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C1,classification,CIFAR100,42,"Simple CNN (2 conv layers, 32/64 filters, dropout 0.5)",Adam,0.001,25.0,0.581,0.576,,,,Baseline CNN без аугментаций
+C2,classification,CIFAR100,42,"Simple CNN (2 conv layers, 32/64 filters, dropout 0.5)",Adam,0.001,25.0,0.615,0.609,,,,"С аугментациями (Flip, Rotation, ColorJitter)"
+C3,classification,CIFAR100,42,"ResNet18 (pretrained), head only, backbone frozen",Adam,0.0001,20.0,0.728,0.722,,,,Transfer learning: только голова
+C4,classification,CIFAR100,42,"ResNet18 (pretrained), fine-tune layer4 + head",Adam,0.0001,20.0,0.742,0.738,,,,Transfer learning: partial fine-tuning
+V1,detection,PascalVOC2012,42,Faster R-CNN ResNet50 FPN (pretrained),,,,,,0.68,0.72,0.61,score_threshold=0.3
+V2,detection,PascalVOC2012,42,Faster R-CNN ResNet50 FPN (pretrained),,,,,,0.85,0.51,0.58,score_threshold=0.7

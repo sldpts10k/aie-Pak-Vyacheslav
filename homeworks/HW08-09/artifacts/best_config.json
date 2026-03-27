@@ -10,7 +10,7 @@
     "activation": "ReLU",
     "dropout": 0.0,
     "batch_norm": true,
-    "ErlyStoping" true
+    "ErlyStoping": true
   },
   "training_params": {
     "optimizer": "Adam",
