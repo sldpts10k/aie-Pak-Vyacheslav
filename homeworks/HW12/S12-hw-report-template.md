@@ -9,11 +9,11 @@
 
 ## 2. Среда и воспроизводимость
 
-- Python:
-- pandas / numpy / scikit-learn:
-- torch:
-- Устройство (CPU/GPU):
-- Seed:
+- Python: 3.13.2
+- pandas / numpy / scikit-learn:+
+- torch:2.6.0+cu124
+- Устройство (CPU/GPU): cpu
+- Seed: 42
 - Как запустить: открыть `HW12.ipynb` и выполнить Run All.
 
 ## 3. Данные и постановка задачи
