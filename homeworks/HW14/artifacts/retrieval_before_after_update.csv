@@ -1,0 +1,11 @@
+query_id,query,relevant_doc_ids,predicted_doc_ids_before,hit@3_before,recall@3_before,MRR@3_before,first_relevant_rank_before,predicted_doc_ids_after,hit@3_after,recall@3_after,MRR@3_after,first_relevant_rank_after
+q01,Что такое подзапрос?,sql_07,"sql_07, sql_09, sql_03",1,1.0,1.0,1.0,"sql_07, sql_09, sql_12",1,1.0,1.0,1
+q02,что делает ORDER BY?,sql_03,"sql_03, sql_11, sql_07",1,1.0,1.0,1.0,"sql_03, sql_11, sql_13",1,1.0,1.0,1
+q03,Что такое нормализация баз данных?,sql_10,"sql_01, sql_10",1,1.0,0.5,2.0,"sql_01, sql_10",1,1.0,0.5,2
+q04,Для чего нужен JOIN?,sql_06,sql_06,1,1.0,1.0,1.0,sql_06,1,1.0,1.0,1
+q05,Что такое индекс в базе данных?,sql_08,"sql_08, sql_01",1,1.0,1.0,1.0,"sql_08, sql_01",1,1.0,1.0,1
+q06,Зачем нужны транзакции?,sql_09,"sql_09, sql_01",1,1.0,1.0,1.0,"sql_09, sql_13",1,1.0,1.0,1
+q07,Что делает GROUP BY?,sql_05,"sql_05, sql_06",1,1.0,1.0,1.0,"sql_05, sql_06",1,1.0,1.0,1
+q08,Что такое оконные функции?,sql_11,"sql_11, sql_04",1,1.0,1.0,1.0,"sql_11, sql_04, sql_12",1,1.0,1.0,1
+q09,Что такое представление VIEW?,sql_12,"sql_06, sql_01",0,0.0,0.0,,sql_12,1,1.0,1.0,1
+q10,Зачем нужны хранимые процедуры?,sql_13,"sql_10, sql_09",0,0.0,0.0,,sql_13,1,1.0,1.0,1
