@@ -1,0 +1,34 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Notebook/system/editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git and local env files
+.git/
+.gitignore
+.env
+.env.*
+!.env.example
+
+# Large/raw files are excluded by default.
+# Keep artifacts/model.pkl and artifacts/metrics.json because the API needs them.
+data/raw/
+*.zip
+*.tar
+*.gz
+
+# Local reports/logs
+logs/
+*.log

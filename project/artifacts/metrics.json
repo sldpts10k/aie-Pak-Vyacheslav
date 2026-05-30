@@ -1,0 +1,18 @@
+{
+  "mae": 21.73470456166967,
+  "rmse": 27.24444517485721,
+  "mape_percent": 653.6381341762387,
+  "dataset": "SILSO monthly mean total sunspot number V2.0",
+  "data_path": "C:\\ML\\ИИИ_вкр\\project\\data\\raw\\SN_m_tot_V2.0.csv",
+  "start_year": 1970,
+  "n_total": 676,
+  "n_train_all": 540,
+  "n_train_used": 180,
+  "n_test": 136,
+  "season_period_months": 132.0,
+  "model_type": "IRFKriging",
+  "kernel": "RationalQuadratic + Periodic(T=season_period) + Nugget",
+  "k": 0,
+  "optim_type": "grad",
+  "mean_predictive_variance": 1380.1981009588378
+}

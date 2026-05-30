@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+jax
+jaxopt
+fastapi
+uvicorn[standard]
+pydantic
+requests
+pytest
+httpx

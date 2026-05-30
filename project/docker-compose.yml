@@ -1,0 +1,10 @@
+services:
+  irf-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: irf-kriging-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=docker
